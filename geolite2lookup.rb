@@ -5,21 +5,21 @@
 class Geolite2lookup < Formula
   desc "geolite2lookup is look up country/city using IP Address or hostname."
   homepage "https://github.com/kunit/geolite2lookup"
-  version "0.2.2"
+  version "0.2.3"
   license "MIT"
   bottle :unneeded
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/kunit/geolite2lookup/releases/download/v0.2.2/geolite2lookup_v0.2.2_darwin_amd64.zip"
-      sha256 "818a70373f84819c88f1b32551f47c8a7b02f356549c2009de49e4a7345b6f35"
+      url "https://github.com/kunit/geolite2lookup/releases/download/v0.2.3/geolite2lookup_v0.2.3_darwin_amd64.zip"
+      sha256 "4748aab74d93a1e51549ba115b337d7059a1b2bd39250dd2484c0d9b866908c6"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/kunit/geolite2lookup/releases/download/v0.2.2/geolite2lookup_v0.2.2_linux_amd64.tar.gz"
-      sha256 "5dfa7eab01f2a3e4485fe7e50e878d273387f21d4fb43a72b931ba3c8f5f0cb9"
+      url "https://github.com/kunit/geolite2lookup/releases/download/v0.2.3/geolite2lookup_v0.2.3_linux_amd64.tar.gz"
+      sha256 "10ef1f2bd9e800d7a4597a76648e6586743fb28fce68d5ee5152674e90dc5a6e"
     end
   end
 
